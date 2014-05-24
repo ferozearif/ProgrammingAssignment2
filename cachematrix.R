@@ -1,6 +1,6 @@
 ## Matrix inversion is usually a costly computation and 
 ## caching the inverse of a matrix rather than compute it repeatedly could be beneficial.
-## The following pair of functions cache the inverse of a matrix.
+## The following pair of functions cache the inverse of a matrix. This is based on cachemean sample provided
 ## makeCacheMatrix: This function creates a special "matrix" object that can cache its inverse.
 ## cacheSolve: This function computes the inverse of the special "matrix" returned by makeCacheMatrix above.
 
